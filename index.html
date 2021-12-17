@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan's Site</title>
+    <style>
+
+html {
+    background-color: rgb(240, 240, 240);
+}
+
+
+body {
+font-family: 'Montagu Slab', serif;
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-link {
+  float: right;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #111;
+}
+
+#myname {
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+    text-indent: 25px;
+}
+
+#proj {
+    color: black;
+    text-indent: 16px;
+}
+
+.Pic-Title {
+  font-size: 2rem;
+}
+
+.column1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.column2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.column3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.column4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.column5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.column6 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+img {
+  width: 50%;
+  height: 100%;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="navigation">
+        <li><p id="myname">Ivan Velazquez </p></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Projects</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <!--<button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>-->
+  </nav>
+          
+        <h1 id="proj">Portfolio</h1>
+
+
+            <div class="column1">
+            <figure>
+              <a href="https://ivanv06300.github.io/Request-Form_Ivan-V_Sess-2/">
+              <img src="form.png" alt="form"></a>
+              <figcaption class="Pic-Title">Forms</figcaption>
+              <figcaption>1, November, 2021</figcaption>
+            </figure> 
+          </div>
+
+          <div class="column2">
+            <figure>
+              <a href="https://ivanv06300.github.io/ivanv06300.github.io.otherTTT/">
+              <img src="ttt.png" alt="ttt"></a>
+              <figcaption class="Pic-Title">Tic Tac Toe</figcaption>
+              <figcaption>8, November, 2021</figcaption>
+            </figure>
+
+            <div>
+
+              <div class="column3">
+              <figure>
+                <a href="https://ivanv06300.github.io/Quiz_Ivan-V_Sess-2/">
+                <img src="quiz.png" alt="quiz"></a>
+                <figcaption class="Pic-Title">Quiz</figcaption>
+                <figcaption class="Pic-Date">9, November, 2021</figcaption>
+              </figure> 
+              </div>
+              
+              <div class="column4">
+                <figure>
+                  <a href="https://ivanv06300.github.io/working-trans_Ivan-V_Sess-2/">
+                  <img src="button1.png" alt="button1"></a>
+                  <figcaption class="Pic-Title">First Transition</Button></figcaption>
+                  <figcaption>1, December, 2021</figcaption>
+                </figure>
+          </div> 
+
+          <div class="column5">
+            <figure>
+              <a href="https://ivanv06300.github.io/button2_Ivan-V_Sess-2/">
+              <img src="button2.png" alt="button1"></a>
+              <figcaption class="Pic-Title">Second Transition</figcaption>
+              <figcaption>1, December, 2021</figcaption>
+            </figure>
+      </div> 
+   
+      <div class="column6">
+        <figure>
+          <a href="https://ivanv06300.github.io/better-stylish_Ivan-V_Sess-2/">
+          <img src="ladyanim.png" alt="girl"></a>
+          <figcaption class="Pic-Title">Girl Animation</figcaption>
+          <figcaption>6, December, 2021</figcaption>
+        </figure>
+  </div> 
+
+  <div class="column7">
+    <figure>
+      <a href="https://ivanv06300.github.io/stylish-girl-wip_Ivan-V_Sess-2/">
+      <img src="otherlady.png" alt="lady2"></a>
+      <figcaption class="Pic-Title">Girl Animation 2</figcaption>
+      <figcaption>6, November, 2021</figcaption>
+    </figure> 
+  </div>
+</div>
+   
+    
+</body>
+</html>
